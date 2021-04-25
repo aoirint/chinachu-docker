@@ -1,0 +1,51 @@
+{
+  "uid": "user",
+  "gid": "user",
+  "mirakurunPath": "http://127.0.0.1:40772/",
+
+  "recordedDir" : "./recorded/",
+
+  "vaapiEnabled": false,
+  "vaapiDevice": "/dev/dri/renderD128",
+
+  "excludeServices": [
+    3273701416,
+    3232728088,
+    3273901183,
+    3274201456,
+    3239123992,
+    3239123993,
+    3273601408
+  ],
+
+  "serviceOrder": [
+    3273601024,
+    3273601025,
+    3273701032,
+    3273701033,
+    3273701034
+  ],
+
+  "wuiUsers": [
+    "user:user"
+  ],
+  "wuiAllowCountries": ["JP"],
+
+  "wuiPort": null,
+  "wuiOpenHost": "0.0.0.0",
+  "wuiTlsKeyPath": null,
+  "wuiTlsCertPath": null,
+  "wuiTlsRequestCert": false,
+  "wuiTlsRejectUnauthorized": true,
+  "wuiTlsCaPath": null,
+  "wuiOpenServer": true,
+  "wuiOpenPort": 20772,
+  "wuiXFF": false,
+  "wuiMdnsAdvertisement": true,
+
+  "recordedFormat": "<title>/[<date:yymmdd-HHMM>][<type><channel>][<channel-name>]<title>(#<episode>).m2ts",
+  "storageLowSpaceThresholdMB": 3000,
+  "storageLowSpaceAction": "remove",
+  "storageLowSpaceNotifyTo": null,
+  "storageLowSpaceCommand": ""
+}

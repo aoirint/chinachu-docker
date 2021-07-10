@@ -3,7 +3,7 @@ name: Push to Docker registry
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   push:

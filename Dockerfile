@@ -47,4 +47,4 @@ WORKDIR "${CHINACHU_DIR}"
 
 ADD ./docker-entrypoint.sh /
 ENTRYPOINT [ "/docker-entrypoint.sh" ]
-CMD [ "/bin/bash" ]
+CMD [ "tail", "-f", "/dev/null" ]

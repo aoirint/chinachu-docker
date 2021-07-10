@@ -29,7 +29,9 @@ RUN apt-get update && \
         build-essential
 
 RUN cd "${CHINACHU_DIR}" && \
-    echo 1 | gosu "${USER_NAME}" ./chinachu installer
+    echo 2 | gosu "${USER_NAME}" ./chinachu installer && \
+    echo 4 | gosu "${USER_NAME}" ./chinachu installer && \
+    echo 5 | gosu "${USER_NAME}" ./chinachu installer
 
 RUN cd "${CHINACHU_DIR}" && \
     gosu "${USER_NAME}" ./chinachu service operator initscript > chinachu-operator.sh && \

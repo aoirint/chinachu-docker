@@ -1,7 +1,7 @@
-FROM node:10-slim
+FROM node:14-slim
 
 ARG DEBIAN_FRONTEND=noninteractive
-ARG CHINACHU_VERSION=c3dd9a05bc97a414d8aac0e14c9ddcc1cc39d2cd
+ARG CHINACHU_VERSION=6b49bd77bb733c2843571cea1785719ca0819dae
 ARG USER_NAME=user
 ARG CHINACHU_DIR=/usr/local/chinachu
 
